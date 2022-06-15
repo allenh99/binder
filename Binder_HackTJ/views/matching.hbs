@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <title>
+    
+    </title>
+<head>
+	<title>Find a Tutor</title>
+	<link rel="icon" href="https://binder.sites.tjhsst.edu/images/icon.PNG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://binder.sites.tjhsst.edu/css/matching.css"></head>
+<body>
+    <div id="tutor">
+    
+        {{#each data}}
+        <div div class="profile">
+            <a href = "https://binder.sites.tjhsst.edu/send_message?phone={{phone}}" class= "logo"><img src = "https://binder.sites.tjhsst.edu/images/heart.PNG"></a>
+            <h1>{{firstname}} {{lastname}}</h1>
+            <h2>{{grade}}</h2>
+            <h2>{{subject}}</h2>
+        </div>
+        {{/each}}
+    </div>
+    
+    
+    
+</body>
+</html>

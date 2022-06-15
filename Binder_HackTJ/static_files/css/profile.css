@@ -1,0 +1,180 @@
+body{
+
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+.about{
+    background-color:#f3f3f3;
+    margin:0% 30%;
+    padding:0% 4%;
+}
+p1{
+    /*margin-top:15%;
+    margin-left:25%;*/
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+}
+
+p2{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:25px;
+}
+
+p{
+    margin-top: 0px;
+    text-align: left;
+font-family: 'Poppins', sans-serif;
+font-size:30px;
+}
+h1{
+  background-color: #F3FCEB;
+  font-size: 2em;
+  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  width: 90%;
+  text-align: left;
+  margin-left:10%;
+}
+
+h2{
+    color: black;
+  text-align: left;
+  margin-left: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  
+}
+
+
+.topnav {
+  background-color: #F3FCEB;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 24px 48px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #44e068;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: black;
+}
+
+/*.container
+{
+    position:relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    background: #ff0;
+}
+
+.container .box
+{
+    position:relative;
+    width: calc(400 px - 30px);
+    height: calc(400 px - 30px);
+    background: #ff0;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}*/
+.container{
+	width: 90%;
+	padding: 20px;
+	margin: 100px auto;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.box{
+	width: 150px;
+	height: 150px;
+	background: #cfe1b9;
+	border-radius:50%;
+    margin: 0px 75px;
+    transition: 0.5s;
+
+}
+.box .center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:35%;
+    margin-bottom:auto;
+	
+
+}
+.box:hover{
+	transform: scale(2);
+	background: #cfe1b9;
+	z-index: 2;
+	box-shadow: 2px 1px 1px #000;
+		
+}
+.logo{
+
+    color: black;
+  text-align: left;
+  margin-left: 35px;
+  font-size: 1.5em;
+}
+.circle1{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left:45%;
+    border-radius: 50%;
+    background: #C9E7AB;
+
+}
+
+.circle1:hover{
+    width: 180px;
+    height: 180px;
+    margin-left:45%;
+    border-radius: 50%;
+    background: #C9E7AB;
+}
+
+.circle2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left:20%;
+    border-radius: 50%;
+    background: #C9E7AB;
+    display: inline-block;
+}
+
+.circle3{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left:70%;
+    border-radius: 50%;
+    background: #C9E7AB;
+    display: inline-block;
+}

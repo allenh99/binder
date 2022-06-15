@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <meta charset ="UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+<head>
+	<title>Binder Sign-Up</title>
+	<link rel="icon" href="https://binder.sites.tjhsst.edu/images/icon.PNG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://binder.sites.tjhsst.edu/css/login.css"></head>
+<body>
+    <div id="login">
+    <div class="header">
+      <h1>Create Your Account</h1>
+    </div>
+    <form action = "form_signup" method = "POST">
+      <div class="group">
+        <label>Username</label>
+        <input name="txtUsername" type="text">
+        
+      </div>
+      <div class="group">
+        <label>Password</label>
+        <input name="txtPassword" type="password">
+      </div>
+      <div id="divLoginError" class="group">
+        <p id = "errorMessage"></p>
+      </div>
+      <br>
+      <button name="btnSubmit" type="submit" class="button buttonBlue">Log in</button>
+    </form>
+  </div>
+  <footer>
+    
+  </footer>
+    
+</body>
+</html>
